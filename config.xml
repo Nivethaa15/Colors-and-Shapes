@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.phonegap.colorsandshapes"
+        versionCode = "12"
+        version     = "1.0.2" >
+
+    <name>Colors and Shapes</name>
+
+    <description>
+      [New] Brand new life characters adds more fun to your toddlers experience. Have a great time with your baby.
+
+      Colors stimulates various regions of your kid's brain. They can improve her nervous system, heart functioning, release happy hormone and can even help in digestion. Likewise, shapes too have great impact on a human being. A circular shape triggers friendship and love, square forges strength and power and some shape power, happiness, rhythm, courage and so on.
+
+      "Colors and shapes" is an observe and learn activity for your toddler. Just by seeing the changing colors and shapes, the kids learn and grow.
+
+      1. Emoji provided free by http://emojione.com
+      2. Colors from: http://colours.neilorangepeel.com/
+      3. Favicon generated via: http://www.favicon-generator.org/
+      4. Shapes from: http://www.w3schools.com/charsets/ref_utf_geometric.asp
+      5. Music created using 4Beats (https://itunes.apple.com/us/app/4beats-music-creator/id886685363?mt=8) on iPad
+    </description>
+
+    <author href="https://twitter.com/shivrajrath" email="shivrajrath@gmail.com">
+        Shivraj Rath
+    </author>
+
+    <preference name="permissions" value="none"/>
+    <preference name="orientation" value="portrait" />
+    <preference name="fullscreen" value="true" />
+    <preference name="BackgroundColor" value="0xffed143d"/>
+
+    <plugin name="nl.x-services.plugins.insomnia" spec="4.0.1" source="pgb" />
+
+    <icon src="manifest/favicon-icon-96x96.png" />
+    <icon src="manifest/android-icon-36x36.png"   gap:platform="android"    gap:qualifier="ldpi" />
+    <icon src="manifest/android-icon-48x48.png"   gap:platform="android"    gap:qualifier="mdpi" />
+    <icon src="manifest/android-icon-72x72.png"   gap:platform="android"    gap:qualifier="hdpi" />
+    <icon src="manifest/android-icon-96x96.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="manifest/android-icon-144x144.png" platform="android" qualifier="xxhdpi" />
+    <icon src="manifest/android-icon-192x192.png" platform="android" qualifier="fr-xxhdpi" />
+
+    <icon src="manifest/apple-icon-57x57.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="manifest/apple-icon-72x72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="manifest/apple-icon-114x114.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="manifest/apple-icon-144x144.png"         gap:platform="ios"        width="144" height="144" />
+
+</widget>
